@@ -1,0 +1,46 @@
+body{
+    background-image: url(bgHome.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;    
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    color: white;
+    align-items: center;    
+}
+
+.isi h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.isi table{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.isi img{
+    width: 400px;
+    height: 250px;
+}
+
+.isi button{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    transition: ease-in-out .4s;
+}
+
+.isi button:hover{
+    width: 90px;
+    height: 50px;
+
+}
